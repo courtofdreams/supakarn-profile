@@ -2,6 +2,7 @@ import { Menu } from "./menu";
 import { ProjectCard } from "./project-card";
 import PageHeader from "./page-header";
 import { projectList } from "./projects";
+import styles from "./styles.module.css";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       </div>
 
       <PageHeader />
-      <section className="h-full w-full" >
+      <section className="h-full w-full" id="project">
         <h2 className="flex items-center text-align-center">Works</h2>
         <div className="content h-full">
           <p className="grid grid-cols-4">
@@ -28,13 +29,13 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section className="h-full w-full">
-        <h2 className="flex items-center text-align-center">Contact Me</h2>
+      <section className="h-full w-full" id="contact">
+        <h2 className="flex items-center text-align-center"></h2>
         <div className="content h-full">
-          <p className="grid">
-            email: supakarnb.bun@gmail.com
-            
-          </p>
+          <div className="flex align-items-center">
+            <input type="email" className={styles.input} id="Email" name="Email" placeholder="supakarnb.bun@gmail.com" autoComplete="off" />
+            <input className={styles.submit} value="Subscribe" type="submit" />
+          </div>
         </div>
       </section>
     </main>

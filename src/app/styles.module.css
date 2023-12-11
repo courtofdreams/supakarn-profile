@@ -118,3 +118,38 @@
     border: #0f0f0f solid 1px;
     overflow: hidden;
   }
+
+
+  
+  .input {
+    min-height: 50px;
+    width: 400px;
+    padding: 0 1rem;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid rgb(247, 117, 121);;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+  }
+  
+  .submit {
+    min-height: 50px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: rgb(247, 117, 121);
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+  }
+  
+  .submit:hover {
+    background-color: rgb(247, 117, 121);
+  }
+  
+  .input:focus, .input:focus-visible {
+    border-color: rgb(253, 58, 64);
+    outline: none;
+  }
+  

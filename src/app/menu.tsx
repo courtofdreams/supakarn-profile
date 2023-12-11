@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useState } from "react";
 import { MenuItem } from "./menu-item";
@@ -34,12 +34,16 @@ export const Menu = () => {
             <li onClick={() => handleMenuClick(MenuItem.Projects)}>
               <a
                 className={getCurrentMenuStyle(currentMenu, MenuItem.Projects)}
+                href="#project"
               >
                 Project
               </a>
             </li>
             <li onClick={() => handleMenuClick(MenuItem.Contact)}>
-              <a className={getCurrentMenuStyle(currentMenu, MenuItem.Contact)}>
+              <a
+                className={getCurrentMenuStyle(currentMenu, MenuItem.Contact)}
+                href="#contact"
+              >
                 Contact
               </a>
             </li>

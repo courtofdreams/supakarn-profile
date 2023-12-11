@@ -31,36 +31,30 @@ export const projectList: ProjectItem[]  =  [
         "title": "Data Client",
         "description": "Java library providing realtime trading information",
         "image": "/assets/img/project-dtcn.png",
-        "tags": ["#api", "#backend", "#frontend", "#ui-design"]
+        "tags": ["#backend"]
     },
     {
         "title": "STT Customized Websites",
-        "description": "",
-        "image": "/assets/img/project-dtcn.png",
+        "description": "All customized websites for STT products (internal websites)",
+        "image": "/assets/img/project-nopic.png",
         "tags": ["#frontend"]
     },
     {
         "title": "STT API Gateways",
         "description": "APIs for each features for STT products",
-        "image": "/assets/img/project-dtcn.png",
+        "image": "/assets/img/project-api.png",
         "tags": ["#frontend"]
     },
     {
-        "title": "Patchara Candle",
-        "description": "",
-        "image": "/assets/img/project-dtcn.png",
-        "tags": ["#cms", "#ui-design"]
+        "title": "Patchara",
+        "description": "Website for Patchara, a candle retailer",
+        "image": "/assets/img/project-candle.png",
+        "tags": ["#frontend", "#ui-design"]
     },
     {
         "title": "Brand Identity",
         "description": "My own brand identity design",
-        "image": "/assets/img/project-dtcn.png",
+        "image": "/assets/img/project-spk.png",
         "tags": ["#design"]
-    },
-    {
-        "title": "Brand Identity",
-        "description": "My own brand identity design",
-        "image": "/assets/img/project-dtcn.png",
-        "tags": ["#design"]
-    },
+    }
 ]

@@ -49,3 +49,8 @@ section:nth-child(odd){
   background-color: white;
 }
 
+
+a[ id= "project" ]:target {
+  -webkit-transform: translateY( -500px );
+  transform: translateY( -500px );
+}
