@@ -3,7 +3,7 @@
 export type ProjectItem = {
     title: string;
     description: string;
-    image?: string;
+    image: string;
     tags?: string[];
 };
   
